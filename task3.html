@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Table & Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>My Website</h1>
+    </div>
+
+    <div class="navbar">
+      <a href="index.html">Task 1</a>
+      <a href="task2.html">Task 2</a>
+      <a class="active" href="task3.html">Task 3</a>
+      <a href="task4.html">Task 4</a>
+    </div>
+
+    <div class="main">
+      <div class="sidebar">
+        <h3>Menu</h3>
+        <ul>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <h2>Student Grades</h2>
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Grade</th>
+          </tr>
+          <tr>
+            <td>Almat</td>
+            <td>Math</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Era</td>
+            <td>Web Tecnologies</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Sultan</td>
+            <td>PE</td>
+            <td>5</td>
+          </tr>
+        </table>
+
+        <form>
+          <h3 id="heading3">Feedback Form</h3>
+          <label for="name">Name</label>
+          <input id="name" type="text" />
+
+          <label for="email">Email</label>
+          <input id="email" type="email" />
+
+          <label for="role">Role</label>
+          <select id="role">
+            <option>Student</option>
+            <option>Teacher</option>
+            <option>Other</option>
+          </select>
+
+          <label>Do you like this page?</label>
+          <input type="radio" value="yes" name="answer" /> Yes
+          <input type="radio" value="no" name="answer" /> No
+
+          <label for="comments">Comments</label>
+          <textarea id="comments" rows="4"></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>© 2025 My Website. All rights reserved.</p>
+    </div>
+  </body>
+</html>
