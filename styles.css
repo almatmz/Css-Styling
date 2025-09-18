@@ -8,13 +8,12 @@ body {
 .header {
   background-color: #333;
   color: #fff;
-  padding: 20px 0;
+  padding: 10px;
   text-align: center;
   font-family: "Merriweather", serif;
 }
 
 .navbar {
-  overflow: hidden;
   background-color: #444;
   text-align: center;
 }
@@ -73,7 +72,7 @@ body {
   color: #fff;
   text-align: center;
   padding: 10px 0;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 img {
@@ -112,7 +111,9 @@ label {
   margin-top: 10px;
   font-weight: bold;
 }
-input,
+input[type="text"],
+input[type="email"],
+input[type="password"],
 select,
 textarea {
   width: 100%;
@@ -121,6 +122,12 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
+input[type="radio"] {
+  width: auto;
+  margin-right: 6px;
+}
+
 button {
   background-color: #444;
   color: white;
